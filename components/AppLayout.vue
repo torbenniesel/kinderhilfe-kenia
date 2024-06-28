@@ -5,7 +5,7 @@ const { cover } = useAppConfig()
 </script>
 
 <template>
-  <div class=" min-h-screen bg-emerald-50">
+  <div class=" min-h-screen bg-emerald">
     <Html lang="en" />
     <Meta name="twitter:card" content="summary_large_image" />
     <NuxtLoadingIndicator />

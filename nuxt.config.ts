@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: "light",
   },
-  //css: ["~/assets/css/main.css"],
+  css: ["~/assets/css/main.css"],
   // https://content.nuxtjs.org
   content: {
     documentDriven: true,
