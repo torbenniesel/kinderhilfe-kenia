@@ -66,7 +66,7 @@
   </main>
 
   <UModal v-model="isModalOpen">
-    <div class="p-4">
+    <div class="p-4 flex justify-center items-center">
       <DonationForm :is-transparent="false" />
     </div>
   </UModal>

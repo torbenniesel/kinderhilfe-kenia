@@ -35,12 +35,6 @@
       </a>
     </div>
   </div>
-  <pre>
-  {{ isMonthlyPayment }}
-  {{ donationValue }}
-  {{ paymentLink }}
-  {{ paymentLink2 }}
-</pre>
 </template>
 
 <script setup lang="ts">
