@@ -10,8 +10,13 @@ const { cover } = useAppConfig()
     <Meta name="twitter:card" content="summary_large_image" />
     <NuxtLoadingIndicator />
     <NuxtLayout>
-      <CustomNavbar />
-      <slot />
+      <Header />
+      <div class="full-size-before-wrapper">
+        <div class="wrapper">
+
+          <slot />
+        </div>
+      </div>
     </NuxtLayout>
 
   </div>
@@ -19,6 +24,7 @@ const { cover } = useAppConfig()
 
 <style>
 .wrapper {
-  max-width: 1080px;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 </style>
